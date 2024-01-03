@@ -1,0 +1,25 @@
+#main-container {
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+}
+
+.input-field {
+  padding: 5px 10px;
+  margin: 5px 10px;
+  width: 70%;
+}
+
+#submit-button {
+  margin: 20px 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+}
+
+#submit-button:hover {
+  cursor: pointer;
+}

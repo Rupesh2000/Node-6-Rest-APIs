@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users List</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <%users.forEach((user)=> {%>
+        <div id="container">
+            <h1>
+                <%=user.firstName%>
+                    <%=user.lastName%>
+            </h1>
+            <img src="<%=user.imageURL%>" width="100" height="100">
+            <ul>
+                <li>Age: <%=user.age%>
+                </li>
+            </ul>
+        </div>
+        <%})%>
+</body>
+
+</html>

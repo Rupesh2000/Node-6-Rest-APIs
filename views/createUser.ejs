@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+    <link rel="stylesheet" href="createUser.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <form method="POST" action="api/users">
+            <h3>Create User</h3>
+            <input name="username" type="text" placeholder="Enter your userame" class="input-field"><br>
+            <input name="firstName" type="text" placeholder="Enter your first name" class="input-field"><br>
+            <input name="lastName" type="text" placeholder="Enter your last name" class="input-field"><br>
+            <input name="imageURL" type="text" placeholder="Enter image URL" class="input-field"><br>
+            <input name="age" type="number" placeholder="Enter your age" class="input-field"><br>
+            <button id="submit-button" type="submit">Create User</button>
+        </form>
+    </div>
+</body>
+
+</html>
